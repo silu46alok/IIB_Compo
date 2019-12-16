@@ -5,7 +5,7 @@ CREATE COMPUTE MODULE MQ_handler_Compute
 	BEGIN
 		-- CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
-		
+		-- added commants
 		SET OutputRoot.XMLNSC.out.result = InputRoot.XMLNSC.data.A/InputRoot.XMLNSC.data.B;
 		RETURN TRUE;
 	END;
